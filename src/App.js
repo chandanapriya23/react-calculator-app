@@ -99,10 +99,6 @@ class App extends Component {
                     <h1> Calculator</h1>
                     <ResultComponent result={this.state.result}/>
                     <KeyPadComponent onClick={this.onClick}/>
-                    {/* <p>&nbsp;</p> 
-                    {this.state.calculatedInfo.map((item, index) => 
-                    <div className = "a" key={index}>{item.input} = {item.output}</div>)} */}
-                    
                 </div>
                 <p>&nbsp;</p> 
                 <div>
