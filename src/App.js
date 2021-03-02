@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import ResultComponent from './components/Result';
 import KeyPadComponent from "./components/keypad";
 
-const socket = io("ws://localhost:3001", {
+const socket = io("", {
     transports: ["websocket"]
 });
 
